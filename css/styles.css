@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,
+body {
+	background: #40829E;
+	color: #E8E6E3;
+}
+
+.navbar-brand{
+	
+	padding: 15px 0;
+	font: 28px Roboto , Arial , sans-serif;
+	
+}
+
+.bg-custom {
+	
+	background-color: rgba(0, 0, 0, 0.2);
+    height: 100px;
+    box-shadow: rgb(0 0 0 / 0%) 0px 1px 3px;
+	
+}
+
+.navbar-nav{
+	
+	font-size: 16px;
+	font-weight: 600;
+	display: flex;
+}
+
+.contacts{
+	
+	display: inline-flex;
+	font-size: 16px;
+	font-weight: 600;
+	
+}
+
+.custom-button1{
+		color: white; 
+		background-color: black; 
+		border-radius: 20px;
+		height: 40px;
+    	font-size: 14px;
+    	padding-left: 30px;
+    	padding-right: 30px;
+		font-weight: 600;
+		align-self: center;
+}
