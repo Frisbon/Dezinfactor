@@ -1,15 +1,15 @@
 @charset "utf-8";
-/* CSS Document */
+/* navbar */
 
 html,
 body {
-	background: #40829E;
+	background: #1C556B;
 	color: #E8E6E3;
 }
 
 .navbar-brand{
 	
-	padding: 15px 0;
+	padding-bottom: 15px;
 	font: 28px Roboto , Arial , sans-serif;
 	
 }
@@ -72,3 +72,165 @@ body {
 
 .mg10 {margin:10px 0;}
 .mg20 {margin:20px 0;}
+
+.menu-bg-fix {
+	
+	padding: 8px 0px;
+	background-color: black;
+	
+}
+
+.vb-btn-helper {background-color: #181a1b; margin-right: 32px;}
+.cancel-pd30{padding: 15px 30px 15px 0px;}
+
+.column-helper {
+	
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 0px;
+
+}
+
+/*1st section*/
+
+.title-main{
+	
+	font-size:26px; 
+	line-height: 1.5;
+	padding: 15px 0px;
+	font-weight: 700;
+		
+}
+
+.main-content{
+	
+	display: block;
+	padding: 30px 80px;
+	width: 800px;
+	
+}
+
+@media only screen and (max-width: 1200px) {
+  .main-content {
+    width: 100%;
+  }
+}
+
+
+.custom-button2{
+	color: rgb(255, 255, 255) !important;
+	background-color: rgb(15, 167, 217); 
+	border-radius: 5px;
+	vertical-align: middle;
+	text-align: center;
+	padding: 15px 30px;
+	font-weight: 500;
+	font-size: 16px;
+	margin-top: 15px;
+	position: relative;
+}
+
+.custom-button2:hover {
+	  box-shadow: 0px 0px 5px black;
+
+}
+
+.arrow-svg{
+	
+	margin: 20px auto 30px;
+	display: flex;
+	justify-content: center;		
+	
+}
+
+.svg-arrow-hover:hover{
+	
+	filter: invert(12%) sepia(6%) saturate(0%) hue-rotate(251deg) brightness(98%) contrast(88%);
+}
+
+/*2nd section */
+
+.price-section{
+	
+	padding: 135px 0;
+	background-color: #181A1B;
+}
+
+.cards-title{
+	
+	font-size:38px;
+	margin-bottom: 40px;
+	font-weight: 600;
+}
+
+.card-title-description{
+	
+	font-size: 22px;
+	margin: 0 190px 105px;
+	width: 560px;
+	font-weight: 100;
+	display: block;
+}
+
+
+.title-and-description-wrapper{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.card {
+	background-color: #181A1B;
+	border-radius: 6px;
+	border-color:#0F546B;
+}
+
+.card-deck {margin: 0 8%;}
+
+@media only screen and (max-width: 1200px) {
+  .card-deck {
+    flex-direction: column;
+  }
+}
+
+.card-body {
+	padding: 40px 30px !important;
+	word-wrap: break-word
+
+}
+
+.card-title {
+	
+	font-size: 22px;
+    line-height: 1.35;
+	margin-bottom: 10px;
+	font-weight: 600;
+	text-align: center;
+	height: 144px;
+	
+			}
+
+@media only screen and (max-width: 1600px) {
+  .card-title {
+    font-size: 20px;
+  }
+}
+
+.card-price {
+	
+	    height: 103px;
+	    color: rgb(15, 167, 217);
+	    margin-top: 20px;
+		font-weight: 600;
+		text-align: center;
+	    font-size: 40px;
+    	line-height: 1.23;
+		display: block;
+	
+	
+	
+}
